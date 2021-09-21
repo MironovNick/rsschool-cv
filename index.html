@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Mironov Nick CV RSS</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	</head>
+	
+	<body>
+	
+
+	
+		<main>
+		
+				<nav class="hamburger_menu">
+					<div class="hamburger" id="hamburger" onclick="hidden_menuUp()">
+						<div class="vector"></div>
+						<div class="vector"></div>
+						<div class="vector"></div>
+					</div>
+				</nav>
+				
+				<div class="hidden_menu_active" id="hidden_menu" >
+					<button class="close_button" onclick="hidden_menuDn()">&#10006;</button>
+					<nav class="hidden_menu_list">
+						<ul>
+							<li onclick="initScroll('contacts')">Contacts</li>
+							<li onclick="initScroll('about')">About</li>
+							<li onclick="initScroll('skills')">Skills</li>
+							<li onclick="initScroll('code')">Code</li>
+							<li onclick="initScroll('education')">Education</li>
+							<li onclick="initScroll('language')">Language</li>
+						</ul>
+					</nav>		
+				</div>
+		
+			<header>
+			
+
+				
+				<div class="header_inner_left">
+				
+					<div class="avatar">
+					</div>
+				
+				</div>
+				
+				<div class="header_inner_right">
+				
+					<div class="mob_avatar"></div>
+					
+					<h1><span>Mironov</span> Nikita</h1>
+					<h3>Junior front-end developer</h3>
+					
+					<div class="header_line" id="contacts"></div>
+					
+					<div class="contacts">
+					
+						<div class="contacts_item">
+							<h4>Phone number:</h4>
+							<p>+375 29 6999242</p>
+						</div>
+						
+						<div class="contacts_item">
+							<h4>E-mail:</h4>
+							<p><a href="#">mironov.nik88@gmail.com</a></p>
+						</div>
+						
+						<div class="contacts_item">
+							<h4>Telegram:</h4>
+							<p>@mironovnik</p>
+						</div>
+					
+					</div>
+					
+				</div>
+				
+			</header>
+			
+			<section class="content">
+			
+				<div class="content_left">
+				
+					<div class="about_me_section_left">
+						<h3>About me</h3>
+					</div>
+					
+					<div class="skills_section_left">
+						<h3>Skills</h3>
+					</div>
+					
+					<div class="code_section_left">
+						<h3>Code example</h3>
+					</div>
+					
+					<div class="education_section_left">
+						<h3>Education</h3>
+					</div>
+					
+					<div class="language_section_left">
+						<h3>Language</h3>
+					</div>
+					
+				
+				</div>
+					
+				<div class="content_right" id="about">
+				
+					<div class="about_me_section_right" >
+					
+						<h3 class="mod_section_head" id="skills">About me</h3>
+					
+						<p >My main task is to gain new knowledge for the successful completion of the course and apply it in practice.<br>
+						I like hockey, heavy music and front-end developing offcourse.</p>
+					</div>
+					
+					<div class="skills_section_right" id=>
+					
+						<h3 class="mod_section_head">Skills</h3>
+					
+						<div class="skills_section_right_container">
+							<div class="skill_item_bar" id="html">
+								<h5>HTML</h5>
+								<p>80%</p>
+								<div class="skill_level">
+									<div class="">
+									</div>
+									<div class="">
+									</div>
+								</div>
+							</div>
+							
+							<div class="skill_item_bar" id="css">
+								<h5>CSS</h5>
+								<p>70%</p>
+								<div class="skill_level">
+									<div class="">
+									</div>
+									<div class="">
+									</div>
+								</div>
+							</div>
+							
+							<div class="skill_item_bar" id="js">
+								<h5>JAVASCRIPT</h5>
+								<p>15%</p>
+								<div class="skill_level">
+									<div class="">
+									</div>
+									<div class="">
+									</div>
+								</div>
+							</div>
+							
+							<div class="skill_item_bar" id="git">
+								<h5>GIT</h5>
+								<p>30%</p>
+								<div class="skill_level">
+									<div class="">
+									</div>
+									<div class="">
+									</div>
+								</div>
+							</div>
+							
+							<div class="skill_item_bar" id="ps">
+								<h5>PHOTOSHOP</h5>
+								<p>40%</p>
+								<div class="skill_level">
+									<div class="">
+									</div>
+									<div class="">
+									</div>
+								</div>
+							</div>
+							
+							<div class="skill_item_bar" id="figma">
+								<h5>FIGMA</h5>
+								<p>40%</p>
+								<div class="skill_level" id="code">
+									<div class="">
+									</div>
+									<div class="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="code_section_right" >
+					
+						<h3 class="mod_section_head">Code example</h3>
+					
+						<div class="code_window">
+							<p><span class="function">function</span> Tagger(state) {</p>
+							<br>
+							<p>&emsp; &emsp; &emsp; &emsp; this._readOnly = state;</p>
+							<p>&emsp; &emsp; &emsp; &emsp; this._tag_arr = [{<span class="property">name</span>:'<span class="string">tagname1</span>', <span class="property">index</span>: <span class="property">0</span>}, {name:'<span class="string">tagname2</span>', <span class="property">index</span>: <span class="property">1</span>}];</p>
+							<br>
+							<p>&emsp; &emsp; &emsp; &emsp; <span class="object">Object</span>.defineProperties(this, {</p>
+							<p>&emsp; &emsp; &emsp; &emsp; <span class="property">readOnly</span>: {</p>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <span class="property">get</span>: <span class="function">function</span>() { return this._readOnly; },</p>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <span class="property">set</span>: <span class="function">function</span>(val) { this._readOnly = val; }</p>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; }</p>
+							<p>&emsp; &emsp; &emsp; &emsp; });</p>
+							<br>
+							<p>&emsp; &emsp; &emsp; &emsp; this.addTag = <span class="function">function</span>(tag_name) {</p>
+							<br>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; if(!this.readOnly && tag_name != ''){</p>
+							<br>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; let new_tag = {<span class="property">name</span>: '', <span class="property">index</span>: <span class="property">0</span>};</p>
+							<br>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; if(this._tag_arr.length > <span class="property">0</span>)</p>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; new_tag.index = this._tag_arr[this._tag_arr.length - <span class="property">1</span>].index + <span class="property">1</span>;</p>
+							<br>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; new_tag.name = tag_name;</p>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; this._tag_arr.push(new_tag);</p>
+							<p>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; }</p>
+							<p>&emsp; &emsp; &emsp; &emsp;}</p>
+							<p id="education">};</p>
+						</div>
+					
+					</div>
+					
+					
+					
+					<div class="education_section_right" >
+					
+						<h3 class="mod_section_head">Education</h3>
+						
+						<div class="education_section_item">
+							<h3>High education:</h3>
+							<p>Belarusian State University of Informatics and Radioelectronics, 2017</p>
+						</div>
+						
+						<div class="education_section_item" id="language">
+							<h3>Courses:</h3>
+							<p>IT-school Myfreedom, React.js, 2019</p>
+							<p >LeverX Group, Front-end Programming, 2020</p>
+						</div>
+					</div>
+					
+					
+					
+					<div class="language_section_right" >
+					
+						<h3 class="mod_section_head">Language</h3>
+						
+						<h3>English level - B1</h3>
+					</div>
+				
+				</div>
+			
+			</section>
+		
+		</main>
+		
+		<footer>
+		
+			<div class="social_media_container">
+			
+				<div class="social_media_links">
+					<ul>
+						<li>
+							<a class="fab fa-facebook-square" href="#"></a>
+						</li>
+						<li>
+							<a class="fab fa-github-square" href="https://github.com/MironovNick"></a>
+						</li>
+						<li>
+							<a class="fab fa-instagram" href="#"></a>
+						</li>
+						<li>
+							<a href="https://rs.school/js/">
+								<img src="https://rs.school/images/rs_school_js.svg" alt="rsc school">
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			<div class="year">
+				<p>Mironov Nikita 2021</p>
+			</div>
+			
+		</footer>
+	
+	</body>
+	
+</html>
