@@ -115,4 +115,33 @@ this._tag_arr.push(new_tag);
 
 
 ---
+### Experience:
+
+
+
+* ASCON-Nieman, HTML-coder 2018 - 2020
+
+
+
+---
+
+### Education and courses:
+
+
+
+* Belarusian State University of Informatics and Radioelectronics, 2017  
+
+* IT-school Myfreedom, React.js, 2019  
+
+* LeverX Group, Front-end Programming, 2020
+
+
+
+---
+
+### Language:
+
+
+
+* English level - B1
 
