@@ -57,4 +57,62 @@ I like hockey, heavy music and front-end developing offcourse.
 
 
 ---
+### Code examples:  
+
+
+
+Example of the code with an object and it's properties and methods within
+
+```javascript  
+
+function Tagger(state) {
+	
+	
+this._readOnly = state;
+	this._tag_arr = [{name:'tagname1', index: 0}, {name:'tagname2', index: 1}];
+	
+	
+Object.defineProperties(this, {
+        
+readOnly: {
+             
+get: function() { return this._readOnly; },
+             
+set: function(val) { this._readOnly = val; }
+        
+}
+    
+});
+	
+	
+this.addTag = function(tag_name) {
+		
+		
+if(!this.readOnly && tag_name != ''){
+			
+				
+let new_tag = {name: '', index: 0};
+				
+				
+if(this._tag_arr.length > 0)
+					
+new_tag.index = this._tag_arr[this._tag_arr.length - 1].index + 1;
+				
+				
+new_tag.name = tag_name;
+				
+this._tag_arr.push(new_tag);
+			
+}
+	
+}
+
+};
+
+
+```
+
+
+
+---
 
